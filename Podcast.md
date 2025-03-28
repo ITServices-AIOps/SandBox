@@ -21,19 +21,6 @@ Ambos interlocutores deben hablar en español. El único idioma que se escuche d
 Podcast debe estar en idioma español. Además, debe estar enfocado a una audiencia general, por lo tanto debe ser explicado con claridad para todas las edades.
 """
 ```
-
-## 📄 Tabla de Contenidos
-
-1. [Descripción General](#descripción-general)
-2. [Prompt Original](#prompt-original)
-3. [Flujo Esperado](#flujo-esperado)
-4. [Ejemplo de Salida](#ejemplo-de-salida)
-5. [Parámetros y Reglas](#parámetros-y-reglas)
-6. [Casos de Uso](#casos-de-uso)
-7. [Personalización del Prompt](#personalización-del-prompt)
-8. [Modelos Recomendados](#modelos-recomendados)
-9. [Licencia y Créditos](#licencia-y-créditos)
-
 ## 📝 Descripción General
 
 Este prompt está diseñado para generar contenido de podcast en español, enfatizando la claridad y la accesibilidad para el público hispanohablante. Sus características clave incluyen:
