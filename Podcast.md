@@ -1,108 +1,92 @@
-¡Entendido\! Aquí tienes el archivo `README.md` generado a partir del prompt proporcionado, junto con la creación automática de un documento de Google Docs.
+# 🎙️ Generador de Podcast en Español para NotebookLM
 
------
+Crea podcasts claros y accesibles en español, ideales para NotebookLM.
 
-# 🎙️ Podcast en Español
+## Tabla de Contenidos
 
-[![Tarea: Generación de Audio](about:sanitized)](https://www.google.com/search?q=https://img.shields.io/badge/Tarea-Generaci%25C3%25B3n%2520de%2520Audio-blue)
-[![Idioma: Español](about:sanitized)](https://www.google.com/search?q=https://img.shields.io/badge/Idioma-Espa%25C3%25B1ol-green)
-[![Aplicabilidad: General](about:sanitized)](https://www.google.com/search?q=https://img.shields.io/badge/Aplicabilidad-General-yellow)
+1.  [Descripción General](#descripción-general)
+2.  [Prompt Original](#prompt-original)
+3.  [Flujo Esperado](#flujo-esperado)
+4.  [Ejemplo de Salida](#ejemplo-de-salida)
+5.  [Parámetros y Reglas](#parámetros-y-reglas)
+6.  [Casos de Uso](#casos-de-uso)
+7.  [Personalización del Prompt](#personalización-del-prompt)
+8.  [Modelos Recomendados](#modelos-recomendados)
+9.  [Licencia y Créditos](#licencia-y-créditos)
 
-Genera un podcast claro y accesible en español, explicando conceptos relevantes para el público hispanohablante.
+## Descripción General
 
-## 🗂️ Tabla de Contenidos
+Este prompt está diseñado para generar podcasts en español, enfocados en explicar conceptos de manera clara y accesible para hispanohablantes. Ideal para usar con NotebookLM y otras herramientas de generación de audio.
 
-  - [🧠 Descripción General](#-descripción-general)
-  - [📝 Prompt Original](#-prompt-original)
-  - [🔄 Flujo Esperado](#-flujo-esperado)
-  - [📦 Ejemplo de Salida](#-ejemplo-de-salida)
-  - [⚙️ Parámetros y Reglas](#️-parámetros-y-reglas)
-  - [💼 Casos de Uso](#-casos-de-uso)
-  - [🛠️ Personalización del Prompt](#️-personalización-del-prompt)
-  - [🧠 Modelos Recomendados](#-modelos-recomendados)
-  - [📄 Licencia y Créditos](#-licencia-y-créditos)
+* 🗣️ Genera podcasts en español.
+* 🎯 Explica conceptos de manera clara y accesible.
+* 🎧 Formato de audio para facilitar la escucha.
+* 📚 Ideal para contenido educativo y divulgativo.
 
-## 🧠 Descripción General
-
-Este prompt está diseñado para generar podcasts educativos y explicativos en español, enfocados en la claridad y accesibilidad para el público hispanohablante. Sus características principales son:
-
-  - 🗣️ **Lenguaje Claro**: Utiliza un lenguaje sencillo y directo para facilitar la comprensión.
-  - 🌐 **Enfoque Hispano**: Adaptado para el público hispanohablante, priorizando el español neutro.
-  - 🎯 **Objetivo Educativo**: Explicación de conceptos complejos de manera accesible.
-  - 🎧 **Formato Podcast**: Generación de contenido en formato de audio hablado.
-
-## 📝 Prompt Original
+## Prompt Original
 
 ```text
 1. Cree el podcast en Español.
+
 2. El audio se debe generarse en Spanish. El podcast debe ser en idioma ESPAÑOL para que sea más fácil de entender. Insisto, el idioma debe ser en ESPAÑOL para que las personas hispanoparlantes lo puedan escuchar y entender. Por favor no te olvides que el Podcast debe ser en idioma Español.
-3. El objetivo principal es explicar los conceptos más relevantes de una manera clara en español, accesible y facil de entender en español.
+
+3. El objetivo principal es explicar los conceptos más relevantes de una manera clara en español, accesible y facil de entender
 ```
 
-## 🔄 Flujo Esperado
+## Flujo Esperado
 
-El modelo deberá generar un guion detallado para un podcast en español. Este guion se transformara a audio de voz humana o con acento humano.
+El modelo debe generar un archivo de audio con un podcast en español, explicando conceptos de manera clara y accesible. Se espera un audio con voz clara y un ritmo adecuado para facilitar la comprensión.
 
-## 📦 Ejemplo de Salida
+## Ejemplo de Salida
 
 <details>
 <summary>Ver ejemplo</summary>
 
 ```text
-[Intro Musical]
+[Archivo de audio: podcast_explicacion_conceptos.mp3]
 
-**Presentador**: ¡Bienvenidos a nuestro podcast educativo! Hoy hablaremos sobre...
-
-[Explicación del Concepto]
-
-**Presentador**: Para entender este concepto, imaginemos...
-
-[Ejemplos Prácticos]
-
-**Presentador**: Un ejemplo común de esto es...
-
-[Cierre]
-
-**Presentador**: Esperamos que esta explicación haya sido útil. ¡Hasta la próxima!
-
-[Outro Musical]
+"¡Hola a todos! Bienvenidos a nuestro podcast, donde explicaremos conceptos importantes de manera sencilla. Hoy hablaremos sobre..."
 ```
 
 </details>
 
-## ⚙️ Parámetros y Reglas
+## Parámetros y Reglas
 
-  - 🗣️ **Idioma**: Español neutro, claro y accesible.
-  - 🎯 **Objetivo**: Explicar conceptos relevantes de manera educativa.
-  - 🎧 **Formato**: Guion detallado para podcast.
-  - 📝 **Claridad**: Priorizar la comprensión del público hispanohablante.
+* **Idioma**: Español (obligatorio).
+* **Formato de salida**: Archivo de audio (mp3, wav, etc.).
+* **Claridad**: La explicación debe ser clara y fácil de entender.
+* **Accesibilidad**: El lenguaje debe ser accesible para un público general.
 
-## 💼 Casos de Uso
+## Casos de Uso
 
-1.  **Educación**: Creación de podcasts educativos para estudiantes hispanohablantes sobre temas académicos.
-      - **Entrada**: Concepto de "Inteligencia Artificial".
-      - **Salida**: Podcast explicando el concepto de IA en español sencillo.
-2.  **Divulgación Científica**: Explicación de descubrimientos científicos para el público general.
-      - **Entrada**: Últimos avances en la investigación del cambio climático.
-      - **Salida**: Podcast sobre el cambio climático, adaptado para no científicos.
+1.  **Educación**: Explicar conceptos académicos para estudiantes hispanohablantes.
+    * **Entrada**: Texto con conceptos de biología.
+    * **Salida**: Podcast explicando los conceptos en español.
+2.  **Divulgación científica**: Hacer la ciencia accesible para el público general.
+    * **Entrada**: Texto sobre un descubrimiento científico reciente.
+    * **Salida**: Podcast explicando el descubrimiento de manera sencilla.
 
-## 🛠️ Personalización del Prompt
+## Personalización del Prompt
 
-  - **Idioma**: Adaptar el prompt para generar podcasts en otros idiomas.
-  - **Tema**: Especificar el tema del podcast (historia, ciencia, tecnología, etc.).
-  - **Audiencia**: Ajustar el nivel de complejidad según la audiencia (niños, adultos, expertos).
-  - **Formato**: Indicar si se prefiere un guion detallado o un esquema general.
+* **Idioma**: Adapta el prompt para generar podcasts en otros idiomas.
+* **Tema**: Cambia el tema para generar podcasts sobre diferentes áreas (historia, tecnología, etc.).
+* **Audiencia**: Ajusta el lenguaje y el tono para diferentes audiencias (niños, adultos, expertos).
 
-## 🧠 Modelos Recomendados
+## Modelos Recomendados
 
-  - **Gemini** : Excelente capacidad de generar textos detallados y adaptados al español.
-  - **ChatGPT** : Versátil para generar guiones y explicaciones claras.
-  - **NotebookLM**: Útil para investigar y organizar información para el podcast.
+* **NotebookLM**: Ideal para generar contenido a partir de notas y documentos.
+* **Gemini**: Capaz de generar audio de alta calidad y explicaciones claras.
+* **Otros modelos**: Cualquier modelo con capacidad de generación de audio y procesamiento de lenguaje en español.
 
-## 📄 Licencia y Créditos
+## Licencia y Créditos
 
-Este prompt se distribuye bajo la Licencia MIT.
+* Licencia MIT
+* Creado por: [Tu Nombre/Organización]
 
------
+---
 
-**Nota:** El archivo `README.md` ha sido generado y también se ha creado un documento de Google Docs con el mismo contenido.
+**Enlace al documento de Google Docs:**
+
+[Tu enlace de Google Docs aquí]
+
+Espero que esto sea útil.
