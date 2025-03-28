@@ -29,7 +29,7 @@ Este prompt está diseñado para generar contenido de podcast en español, enfat
 
 2. El audio se debe generarse en Spanish. El podcast debe ser en idioma ESPAÑOL para que sea más fácil de entender. Insisto, el idioma debe ser en ESPAÑOL para que las personas hispanoparlantes lo puedan escuchar y entender. Por favor no te olvides que el Podcast debe ser en idioma Español.
 
-3. El objetivo principal es explicar los conceptos más relevantes de una manera clara en español, accesible y facil de entender
+3. El objetivo principal es explicar los conceptos más relevantes de una manera clara en español, accesible y facil de entender.
 ```
 
 ## 🎬 Flujo Esperado
