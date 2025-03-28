@@ -2,6 +2,18 @@
 
 Este prompt se utiliza para instruir a modelos de lenguaje como NotebookLM en la creación de podcasts en español, asegurando claridad y accesibilidad para audiencias hispanohablantes.
 
+## 📜 Prompt Opcion 1
+
+```text
+"Cree el podcast en Español. El audio se debe generarse en Spanish. El podcast debe ser en idioma ESPAÑOL para que sea más fácil de entender. Insisto, el idioma debe ser en ESPAÑOL para que las personas hispanoparlantes lo puedan escuchar y entender. Por favor no te olvides que el Podcast debe ser en idioma Español.El objetivo principal es explicar los conceptos más relevantes de una manera clara en español, accesible y facil de entender."
+```
+## 📜 Prompt Opcion 2
+
+```text
+"Ambos interlocutores deben hablar en español. El único idioma que se escuche debe ser el Español de México."
+"Podcast debe estar en idioma español. Además, debe estar enfocado a una audiencia general, por lo tanto debe ser explicado con claridad para todas las edades."
+```
+
 ## 📄 Tabla de Contenidos
 
 1. [Descripción General](#descripción-general)
@@ -21,18 +33,6 @@ Este prompt está diseñado para generar contenido de podcast en español, enfat
 * 🗣️ **Enfoque en el Español:** Asegura que todo el contenido del podcast se genere en español para una comprensión óptima.
 * 🎯 **Claridad y Accesibilidad:** Prioriza la explicación de conceptos relevantes de manera clara y fácil de entender.
 * 🎧 **Formato de Podcast:** Instruye al modelo para generar contenido adecuado para un formato de podcast.
-
-## 📜 Prompt Opcion 1
-
-```text
-"Cree el podcast en Español. El audio se debe generarse en Spanish. El podcast debe ser en idioma ESPAÑOL para que sea más fácil de entender. Insisto, el idioma debe ser en ESPAÑOL para que las personas hispanoparlantes lo puedan escuchar y entender. Por favor no te olvides que el Podcast debe ser en idioma Español.El objetivo principal es explicar los conceptos más relevantes de una manera clara en español, accesible y facil de entender."
-```
-## 📜 Prompt Opcion 2
-
-```text
-"Ambos interlocutores deben hablar en español. El único idioma que se escuche debe ser el Español de México."
-"Podcast debe estar en idioma español. Además, debe estar enfocado a una audiencia general, por lo tanto debe ser explicado con claridad para todas las edades."
-```
 
 ## 🎬 Flujo Esperado
 
