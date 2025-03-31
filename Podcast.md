@@ -2,7 +2,7 @@
 
 Este prompt se utiliza para instruir a modelos de lenguaje como NotebookLM en la creación de podcasts en español, asegurando claridad y accesibilidad para audiencias hispanohablantes.
 
-## 📜 Prompt Opcion 1
+## 📜 Prompt Opcion 1 Temarios / Documentos
 
 ```text
 """
@@ -10,15 +10,23 @@ Cree el podcast en Español.
 El audio se debe generarse en Spanish. El podcast debe ser en idioma ESPAÑOL para que sea más fácil de entender. 
 Insisto, el idioma debe ser en ESPAÑOL para que las personas hispanoparlantes lo puedan escuchar y entender. 
 Por favor no te olvides que el Podcast debe ser en idioma Español.
-El objetivo principal es explicar los conceptos más relevantes de una manera clara en español, accesible y facil de entender.
+El objetivo principal es explicar los conceptos más relevantes de una manera clara en español, accesible y facil de entender de acuerdo a la estructura del Temario.
 """
 ```
-## 📜 Prompt Opcion 2
+## 📜 Prompt Opcion 2 Audiencia General
 
 ```text
 """
 Ambos interlocutores deben hablar en español. El único idioma que se escuche debe ser el Español de México.
 Podcast debe estar en idioma español. Además, debe estar enfocado a una audiencia general, por lo tanto debe ser explicado con claridad para todas las edades.
+"""
+```
+## 📜 Prompt Opcion 3 Audiencia Tecnica
+
+```text
+
+"""
+Ambos interlocutores deben hablar en español. El único idioma que se escuche debe ser el Español de México. Tienen que dar na explicacion detallada de la conferencia en idioma español. Además, debe estar enfocado a una audiencia técnica especializada.
 """
 ```
 ## 📝 Descripción General
