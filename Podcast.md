@@ -16,9 +16,8 @@ El objetivo principal es explicar los conceptos más relevantes de una manera cl
 ## 📜 Prompt Opcion 2 Audiencia General
 
 ```text
-"""
-Ambos interlocutores deben hablar en español. El único idioma que se escuche debe ser el Español de México.
-Podcast debe estar en idioma español. Además, debe estar enfocado a una audiencia general, por lo tanto debe ser explicado con claridad.
+"""Ambos interlocutores deben hablar en español. El único idioma que se escuche debe ser el Español de México.
+Podcast debe estar en idioma español. Además, debe estar enfocado a una audiencia general, por lo tanto debe ser explicado con claridad en Español de México."""
 """
 ```
 ## 📜 Prompt Opcion 3 Audiencia Tecnica
