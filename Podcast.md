@@ -29,6 +29,12 @@ Podcast debe estar en idioma español. Además, debe estar enfocado a una audien
 Ambos interlocutores deben hablar en español. El único idioma que se escuche debe ser el Español de México. Tienen que dar na explicacion detallada de la conferencia en idioma español. Además, debe estar enfocado a una audiencia técnica especializada.
 """
 ```
+## 📜 Prompt Opcion 3 Audiencia Directiva y Genrencial
+
+```text
+"""Ambos interlocutores deben hablar en español. El único idioma que se escuche debe ser el Español de México y deben apegarse al guion del PODCAST. EL Podcast debe estar en idioma español. Además, debe estar enfocado a una audiencia general, por lo tanto debe ser explicado con claridad para Directores y Gerentes de Operaciones e Infraestructura de TI ."""
+```
+
 ## 📝 Descripción General
 
 Este prompt está diseñado para generar contenido de podcast en español, enfatizando la claridad y la accesibilidad para el público hispanohablante. Sus características clave incluyen:
